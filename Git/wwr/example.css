@@ -1,0 +1,40 @@
+body {
+    background-color:purple;
+}
+
+h1 {
+    background-color:chartreuse;
+    font-size: 4em;
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+.fancy {
+    text-transform: uppercase;
+    color: beige;
+    font-size: 2em;
+    border: 1px solid white;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+.dave {
+    width: 100px;
+    line-height: 1.4em;
+    font-weight: bold;
+}
+
+#superfancy {
+    font-family: 'Mea Culpa', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'The Nautigal', cursive;
+    font-size: 2em;
+}
