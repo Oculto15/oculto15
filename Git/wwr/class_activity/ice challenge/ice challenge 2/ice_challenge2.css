@@ -44,3 +44,6 @@ body{
     width:65%;
 }
 
+.input{
+    border: 1em solid #444444;
+}
