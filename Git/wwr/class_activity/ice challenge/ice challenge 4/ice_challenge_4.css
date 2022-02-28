@@ -74,8 +74,8 @@ footer{
 
 .two{
     grid-column: 2;
-    border-right: 1px solid white;
-    border-left: 1px solid white;
+    border-right: 1px solid #9d939d;
+    border-left: 1px solid #9d939d;
     text-align: center;
     margin: 0;
     padding-top: 16px;
