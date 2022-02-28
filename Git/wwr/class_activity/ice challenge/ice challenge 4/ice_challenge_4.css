@@ -78,9 +78,7 @@ footer{
     border-left: 1px solid white;
     text-align: center;
     margin: 0;
-    display: grid;
-    place-items: center;
-    margin-top: 5px;
+    padding-top: 16px;
 }
 .three{
     grid-column: 3;
