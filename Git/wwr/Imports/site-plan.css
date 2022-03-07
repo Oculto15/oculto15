@@ -65,7 +65,6 @@ header > h1, header > h2 {
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
- 
 }
 .colors {
   width: 100%;
