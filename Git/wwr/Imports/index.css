@@ -1,0 +1,33 @@
+body, h1, h2, h3, h4, h5, h6 , ul , li, p{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display:grid;
+    grid-template-columns: 4fr .4fr .6fr .6fr 1fr 1fr
+}
+
+.header{
+    color: #a19b9b;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.75019em;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #a19b9b;
+    text-align: right;
+    text-decoration: none;
+}
+

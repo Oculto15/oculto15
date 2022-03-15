@@ -1,0 +1,75 @@
+body, h1, h2, h3, h4, h5, h6 , ul , li, p{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display:grid;
+    grid-template-columns: 4fr .4fr .6fr .6fr 1fr 1fr
+}
+
+.header{
+    color: #a19b9b;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.75019em;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #a19b9b;
+    text-align: right;
+    text-decoration: none;
+}
+
+#q{
+    transition: border-color 200ms ease,outline 200ms ease;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    background-color: #f5f5f5;
+    font-size: 1rem;
+    line-height: normal;
+}
+
+.form__group{
+    display: flex;
+}
+
+.form__search:after {
+    -webkit-transform: translatey(-50%);
+    -moz-transform: translatey(-50%);
+    -ms-transform: translatey(-50%);
+    -o-transform: translatey(-50%);
+    transform: translatey(-50%);
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    width: 1rem;
+    height: 1rem;
+    color: #191919;
+    font-family: "FontAwesome";
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
+    content: "\f002";
+    pointer-events: none;
+}
+
+.option_label{
+    border: 0;
+    background-color: transparent;
+    direction: rtl;
+}
