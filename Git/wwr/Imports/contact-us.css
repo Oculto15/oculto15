@@ -54,6 +54,13 @@ header a:hover {
 
 /* MAIN */
 
+#main{
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+}
+
+
+
 
 #email {
     font-family: sans-serif;
