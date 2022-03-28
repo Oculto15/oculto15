@@ -1,0 +1,264 @@
+/* BODY */
+body, h1, h2, h3, h4, h5, h6 , ul , li, p{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+.header-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background: #f5f5f5;
+    padding: 25px;
+}
+
+.header-ul {
+    display:grid;
+    grid-template-columns: 1fr 3.7fr 2fr 5fr ;
+    position: relative;
+    border-bottom: 1px solid transparent;
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+.header a{
+    color: #a19b9b;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.78019em;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header a:hover {
+    color: black;
+}
+
+.header{
+    list-style: none; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logo_link{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 73px;
+}
+
+/* MAIN */
+
+main{
+    margin-left:115px;
+    margin-right:130px;
+}
+
+main .top-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+.top-bar h1{
+    font-size: 2em;
+}
+
+main .form-search{
+    width: 65%;
+    justify-self: end;
+    position: relative;
+}
+
+#q{ /* Search bar */
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    background-color: #f5f5f5;
+    font-size: 1em;
+    line-height: normal;
+    padding-left: 10px;
+}
+
+main .bar{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+main .form-group{
+    display: flex;
+}
+
+.fa-magnifying-glass:before, .fa-search:before {
+    position: absolute;
+    top: 35px;
+    right: 1rem;
+    font-family: "FontAwesome";
+    text-align: center;
+}
+
+#q::placeholder{
+    padding-left: 15px;
+}
+
+.option_label{
+    border: 0;
+    background-color: transparent;
+    direction: rtl;
+}
+
+main a{
+    text-decoration: none;
+    color: #a19b9b;
+}
+
+main .form-control{
+    background-color: transparent;
+    border: 0px solid;
+}
+
+main .course_body{
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+}
+
+.division{
+    grid-row: 3;
+    grid-column: 1;
+    align-self: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+
+.division a{
+    transition: all 0.3s ease-in-out;
+    padding: 15px 0;
+}
+
+.division a:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.row{
+    padding-bottom: 150px;
+    column-gap: 30px;
+}
+
+.box{
+    width: 352px;
+    height: 400px;
+    align-items: center;
+    text-align: justify;
+    border-radius: 8px;
+    position: relative;
+    background: #f5f5f5;
+    text-align: center;
+    display: grid;
+}
+
+.box img{
+    border-radius: 0px 0px 8px 8px;
+}
+.perron{
+    grid-column: 1;
+    grid-row: 3;
+    align-self: flex-end;
+}
+
+.zorron{
+    display: flex;
+    justify-content: space-between;
+}
+#bar{
+    width: 25%;
+    height: 5px;
+}
+
+.w3-round{
+    align-self: flex-end;
+    width: 80%;
+    justify-self: center;
+}
+
+/* FOOTER */
+
+.social a{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #a19b9b;
+    text-align: right;
+    text-decoration: none;
+}
+
+.social{
+    grid-column: 6/7;
+    flex: auto;
+    text-align: right;
+    padding-right: 18px;
+}
+
+.social a{
+    text-align: right;
+}
+
+.footer a{
+    color: #a19b9b;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.75019em;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer a:hover {
+    color: black;
+}
+
+.footer{
+    list-style: none; 
+    position: relative;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: inline-block;
+}
+
+.section-content{
+    position: relative;
+    border-bottom: 1px solid transparent;
+    background-color: #f5f5f5;
+    padding: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__copyright{
+    color: #a19b9b;
+    padding-left: 16px;
+}
+
+.section-divide{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 1rem;
+    background-color: #191919;
+    opacity: 0.2;
+}
+

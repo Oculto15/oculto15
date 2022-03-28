@@ -1,0 +1,41 @@
+body, h1, h2, h3, h4, h5, h6 , ul , li, p{
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited, a:hover, a:active, a:focus{
+    color: #4b7f99;
+}
+
+a:hover{
+    color: #89766a;
+}
+
+
+body{
+    background-color: #dfebf4;
+}
+
+h2{
+    color: #364456;
+    font-size: 1.4em;
+    margin-bottom: 35px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 250px 400px;
+    gap: 50px;
+    font-size: 16px;
+    margin:10px auto;
+    width: 715px;
+}
+
+main img{
+    width: 100%;
+}
+ul{
+    font-size: 1.26em;
+    list-style: none;
+    color: #364456;
+}
