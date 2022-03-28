@@ -54,37 +54,70 @@ header a:hover {
 
 /* MAIN */
 
-#main{
+main .title{
+    padding: 50px 50px 30px 0px;
+}
+
+#division{
     display: grid;
     grid-template-columns: 1.5fr 2.5fr;
+    padding-bottom: 50px;
+}
+
+#division .contact{
+    padding-left: 113px;
+}
+
+#division .image{
+    padding-top: 50px;
 }
 
 
+#section {
+    font-family: sans-serif;
+    color: #929294;
+    width: 250px;
+    padding: 5px;
+}
 
+.text{
+    padding: 5px 5px 5px 0px;
+}
 
-#email {
+#message{
+    padding: 5px 5px 80px 5px;
     font-family: sans-serif;
     color: #929294;
     width: 250px;
 }
 
-#name {
-    font-family: sans-serif;
-    color: #929294;
-    width: 250px;
-}
-#subject {
-    font-family: sans-serif;
-    color: #929294;
-    width: 250px;
+#submit{
+    padding: 40px 0px 0px 60px;
+    border-radius: 5px;
 }
 
-#message {
-    font-family: sans-serif;
-    color: #929294;
-    width: 250px;
-    height: 100px;
+.button{
+    background-color: #5e8cad;
+    color: white;
+    border: white;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px 27px;
+    font-size: medium;
 }
+
+.button:hover{
+    background-color: #c4bdbd; 
+    color: black;
+}
+
+#sub-division{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px 0px 200px;
+}
+
 
 /* FOOTER */
 
