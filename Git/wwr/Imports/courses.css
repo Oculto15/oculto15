@@ -83,6 +83,7 @@ main .form-search{
     background-color: #f5f5f5;
     font-size: 1em;
     line-height: normal;
+    padding-left: 10px;
 }
 
 main .bar{
@@ -97,7 +98,7 @@ main .form-group{
 
 .fa-magnifying-glass:before, .fa-search:before {
     position: absolute;
-    top: 30px;
+    top: 35px;
     right: 1rem;
     font-family: "FontAwesome";
     text-align: center;
